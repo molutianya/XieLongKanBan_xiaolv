@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="15dp"
+        android:id="@+id/time"
+        android:text="2019:12:12 08:08:08"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginLeft="815dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:background="#00FF00" />
+
+            <TextView
+                android:id="@+id/z1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#FFFF00" />
+
+            <TextView
+                android:id="@+id/z2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#FF0000" />
+
+            <TextView
+                android:id="@+id/z3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#FF00FF" />
+
+            <TextView
+                android:id="@+id/z4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#F4A460" />
+
+            <TextView
+                android:id="@+id/z5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#1E90FF" />
+
+            <TextView
+                android:id="@+id/z6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:gravity="center"
+                android:text="机台有效利用率"
+                android:textColor="#fff"
+
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:gravity="center"
+                android:layout_marginLeft="100dp"
+                android:background="#00FF00" />
+
+            <TextView
+                android:id="@+id/y1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#FFFF00" />
+
+            <TextView
+                android:id="@+id/y2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#FF0000" />
+
+            <TextView
+                android:id="@+id/y3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#FF00FF" />
+
+            <TextView
+                android:id="@+id/y4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#F4A460" />
+
+            <TextView
+                android:id="@+id/y5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+            <TextView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="3dp"
+                android:background="#1E90FF" />
+
+            <TextView
+                android:id="@+id/y6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0%"
+                android:textSize="10dp"
+                android:textColor="#fff" />
+        </TableRow>
+
+
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/consume_pie1_chart"
+            android:layout_width="520dp"
+            android:layout_height="270dp"
+
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/consume_pie2_chart"
+            android:layout_width="380dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="50dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        >
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar_chart"
+            android:layout_width="380dp"
+            android:layout_height="150dp"
+
+            />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar_chart2"
+            android:layout_width="380dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="120dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="本周的当天数据"
+            android:textColor="#fff"
+            android:textSize="18dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:text="每周的数据"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</LinearLayout>

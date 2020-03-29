@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#00FF00">
+
+        <TextView
+            android:id="@+id/jtno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1号机"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="14dp"
+        android:background="#FFFACD"
+
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="指令提示："
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/bt_a"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/a" />
+
+        <Button
+            android:id="@+id/bt_c"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/c" />
+
+        <Button
+            android:id="@+id/bt_r"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/r" />
+
+        <Button
+            android:id="@+id/bt_p"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/p" />
+
+        <Button
+            android:id="@+id/bt_t"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/t" />
+
+        <Button
+            android:id="@+id/bt_m"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/m" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="14dp"
+        android:background="#E6E6FA">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="模具编号:"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/gdno"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:maxLines="1"
+            android:text="155231515"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="14dp"
+        android:background="#F8F8FF">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="物料描述:"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/cpno"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:maxLines="1"
+            android:text="155231515"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="14dp"
+        android:background="#E6E6FA">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="操作员:"
+            android:textColor="#000"
+            android:paddingLeft="9dp"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/mjname"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:maxLines="1"
+            android:text="155231515"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="14dp"
+        android:background="#FFEFD5">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="计划数量"
+            android:textColor="#0000FF"
+            android:textSize="9dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="良品数"
+            android:textColor="#008000"
+            android:textSize="9dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="不良品数"
+            android:textColor="#FF0000"
+            android:textSize="9dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="14dp"
+        android:background="#FFFACD">
+
+        <TextView
+            android:id="@+id/jhsl"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="5000"
+            android:textColor="#0000FF"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/lpsl"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="#008000"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/blsl"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="#FF0000"
+            android:textSize="10dp" />
+
+    </TableRow>
+
+
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#00FF00">
+
+        <TextView
+            android:id="@+id/jtno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1号机"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="18dp"
+        android:background="#FFFACD"
+
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="3dp"
+            android:text="指令提示:"
+            android:textColor="#000"
+            android:gravity="right|center"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/bt_a"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/a" />
+
+        <Button
+            android:id="@+id/bt_c"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/c" />
+
+        <Button
+            android:id="@+id/bt_r"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/r" />
+
+        <Button
+            android:id="@+id/bt_p"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/p" />
+
+        <Button
+            android:id="@+id/bt_t"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/t" />
+
+        <Button
+            android:id="@+id/bt_m"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/m" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="18dp"
+        android:background="#E6E6FA">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="3dp"
+            android:text="模具编号:"
+            android:textColor="#000"
+            android:textSize="11dp" />
+
+
+        <TextView
+            android:id="@+id/gdno"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:text="155231515"
+            android:textColor="#000"
+            android:textSize="11dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="18dp"
+        android:background="#F8F8FF">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:text="物料描述:"
+            android:paddingLeft="3dp"
+            android:textSize="11dp" />
+
+
+        <TextView
+            android:id="@+id/cpno"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="155231515"
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:textSize="11dp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="18dp"
+        android:background="#E6E6FA">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="操作员:"
+            android:textColor="#000"
+            android:gravity="right"
+            android:textSize="11dp" />
+
+
+        <TextView
+            android:id="@+id/mjname"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="155231515"
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:textSize="11dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="18dp"
+        android:background="#FFEFD5">
+
+        <TextView
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="计划数量"
+            android:textColor="#0000FF"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="良品数"
+            android:textColor="#008000"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="不良品数"
+            android:textColor="#FF0000"
+            android:textSize="11dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="220dp"
+        android:layout_height="18dp"
+        android:background="#FFFACD">
+
+        <TextView
+            android:id="@+id/jhsl"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="5000"
+            android:textColor="#0000FF"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/lpsl"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="#008000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/blsl"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="#FF0000"
+            android:textSize="12dp" />
+
+    </TableRow>
+
+
+</LinearLayout>
