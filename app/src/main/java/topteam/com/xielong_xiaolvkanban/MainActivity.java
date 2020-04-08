@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     List<String> titlList = new ArrayList<>();
     Handler handler; //定时轮播
     static int cout = 0;  //当前要显示Fragment的id
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
 
         tab = findViewById(R.id.tab);
         viewPager = findViewById(R.id.viewPager);
-       // fragmentList.add(new AllJtXiaoLvFragment());
-       fragmentList.add(new AllJtstateFragment());
+        // fragmentList.add(new AllJtXiaoLvFragment());
+        fragmentList.add(new AllJtstateFragment());
 
 
-       // titlList.add("机台效率汇总");
-       titlList.add("机台状态汇总");
+        //titlList.add("机台效率汇总");
+        titlList.add("机台状态汇总");
         adapter = new FragmentAdapter(getSupportFragmentManager(), fragmentList, titlList);
         viewPager.setAdapter(adapter);
 
@@ -62,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
                         //  cout = 1;
                         break;
                     case 1:
-                     //   viewPager.setCurrentItem(1);
-                     //   cout = 0;
+                        //   viewPager.setCurrentItem(1);
+                        //   cout = 0;
                         break;
                     default:
                         break;
@@ -73,11 +74,7 @@ public class MainActivity extends AppCompatActivity {
         }, 0);
 
 
-
     }
-
-
-
 
 
 }

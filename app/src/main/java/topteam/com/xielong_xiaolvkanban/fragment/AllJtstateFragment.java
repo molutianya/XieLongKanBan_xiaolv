@@ -31,6 +31,7 @@ import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+
 import topteam.com.xielong_xiaolvkanban.R;
 import topteam.com.xielong_xiaolvkanban.adapter.AllJtstateAdapter;
 import topteam.com.xielong_xiaolvkanban.entity.AllJtstateEntity;
@@ -71,6 +72,9 @@ public class AllJtstateFragment extends Fragment {
     List<String> fSchqtyNrList = new ArrayList<>(); //生产数量
     List<String> fLpqtyList = new ArrayList<>(); //良品数量
     List<String> fBlqtyList = new ArrayList<>(); //不良品数量
+    List<String> userList1 = new ArrayList<>(); //员工1
+    List<String> userList2 = new ArrayList<>(); //员工2
+    List<String> userList3 = new ArrayList<>(); //员工3
 
 
     //看板表头数据
@@ -138,7 +142,10 @@ public class AllJtstateFragment extends Fragment {
                                         fItemNrList.get(i),
                                         fSchqtyNrList.get(i),
                                         fLpqtyList.get(i),
-                                        fBlqtyList.get(i)
+                                        fBlqtyList.get(i),
+                                        userList1.get(i),
+                                        userList2.get(i),
+                                        userList3.get(i)
 
                                 );
                                 dataList.add(entity);
@@ -172,7 +179,7 @@ public class AllJtstateFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.all_jtstate, container, false);
+        view = inflater.inflate(R.layout.all_jtstate2, container, false);
         initShow(view);
         return view;
     }
@@ -317,6 +324,9 @@ public class AllJtstateFragment extends Fragment {
             fSchqtyNrList.clear();
             fLpqtyList.clear();
             fBlqtyList.clear();
+            userList1.clear();
+            userList2.clear();
+            userList3.clear();
             dataList.clear();
 
 
@@ -333,13 +343,15 @@ public class AllJtstateFragment extends Fragment {
                 fZlcsList.add(Boolean.parseBoolean(object.getString("fZlcs") + ""));
                 fHdtxList.add(Boolean.parseBoolean(object.getString("fHdtx") + ""));
                 fNrList.add(object.getString("fNr") + "");
-                fItemNrList.add(object.getString("fcpName"));
+                fItemNrList.add(object.getString("fItemNr"));
                 //  fMouldNameNrList.add(object.getString("fworkerName1")+"  "+object.getString("fworkerName2"));
                 //  fMouldNameNrList.add(object.getString("fMouldName"));
                 fSchqtyNrList.add(object.getString("fSchqty") + "");
                 fLpqtyList.add(object.getString("fLpqty") + "");
                 fBlqtyList.add(object.getString("fBlqty") + "");
-
+                userList1.add(object.getString("fworkerName1"));
+                userList2.add(object.getString("fworkerName2"));
+                userList3.add(object.getString("fworkerName3"));
             }
             Message message = new Message();
             message.what = 2;

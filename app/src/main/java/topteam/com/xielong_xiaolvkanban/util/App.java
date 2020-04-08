@@ -1,11 +1,13 @@
 package topteam.com.xielong_xiaolvkanban.util;
 
+/**
+ * 存放接口
+ */
+
 public class App {
 
-
-
-
-    public static String url = ""; //协隆服务器ip
+    public static String url = "http://192.168.32.201:6081/meswebservice.asmx/"; //协隆服务器ip
+   // public static String url = "http://119.29.103.79:6091/meswebservice.asmx/"; //协隆服务器ip
     public static String GetGrandwayChart = "GetGrandwayChart?"; //返回机台状态的颜色和状态
     public static String XF_Kanban_week = "XF_Kanban_week?"; //返回柱形图本周当天的数据
     public static String XF_Kanban_moon = "XF_Kanban_moon?"; //返回柱形图周对比的数据
